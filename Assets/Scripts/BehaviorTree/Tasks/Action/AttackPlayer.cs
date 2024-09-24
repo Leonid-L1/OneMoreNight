@@ -1,0 +1,1 @@
+public class AttackPlayer : Attack<Player, SharedPlayer> { }

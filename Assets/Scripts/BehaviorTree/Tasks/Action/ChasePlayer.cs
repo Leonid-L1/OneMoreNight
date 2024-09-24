@@ -1,0 +1,1 @@
+public class ChasePlayer : Chase<Player, SharedPlayer> { }

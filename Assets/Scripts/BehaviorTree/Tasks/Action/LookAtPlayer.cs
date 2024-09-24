@@ -1,0 +1,1 @@
+public class LookAtPlayer : LookAtTarget<Player, SharedPlayer> { }
