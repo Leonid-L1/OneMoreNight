@@ -23,6 +23,7 @@ public class ActiveSpellStatsView : MonoBehaviour
 
     public void Show(SpellStat stat)
     {
+        Debug.Log("ShowStat");
         Image inactiveStat = _pool.First(image => image.gameObject.activeSelf == false);
         inactiveStat.sprite = stat.RuneImage;
         inactiveStat.gameObject.SetActive(true);
