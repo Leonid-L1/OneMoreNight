@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2875324585737403467}
   - component: {fileID: 1879655963171474334}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: PF Props Brick T1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3713009105708657011}
   - component: {fileID: 572550805032939633}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

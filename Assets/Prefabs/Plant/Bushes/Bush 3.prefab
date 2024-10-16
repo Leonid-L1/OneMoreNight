@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8876354748257593844}
   - component: {fileID: 1736208219006162240}
+  - component: {fileID: 5527527319157839945}
+  - component: {fileID: 6693914464699561883}
   m_Layer: 0
   m_Name: Bush 3
   m_TagString: Untagged
@@ -45,6 +47,57 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!114 &5527527319157839945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155408148448085414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Size: {x: 1, y: 0.55, z: 1}
+  m_Center: {x: 0, y: 0.3, z: 0}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
+--- !u!58 &6693914464699561883
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155408148448085414}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.34}
+  serializedVersion: 2
+  m_Radius: 0.38
 --- !u!1 &2380143114508193161
 GameObject:
   m_ObjectHideFlags: 0
@@ -55,7 +108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3796048851221534289}
   - component: {fileID: 159001108292870541}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7928561058207070873}
   - component: {fileID: 4407717138665985775}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: PF Props Bush T3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

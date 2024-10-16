@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2234775539565865008}
   - component: {fileID: 7862816070608634113}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5438818097938597693}
   - component: {fileID: 2803797767279899456}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: PF Props Stone T1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ Transform:
   m_Children:
   - {fileID: 5438818097938597693}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &6247100394194387825
 SortingGroup:

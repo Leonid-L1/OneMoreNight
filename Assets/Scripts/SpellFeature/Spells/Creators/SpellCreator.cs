@@ -25,6 +25,6 @@ public abstract class SpellCreator
     public void Cast(SpellStats stats)
     {
         Spell.Cast(stats);
-        ResetStats(stats);
+        //ResetStats(stats);
     }
 }

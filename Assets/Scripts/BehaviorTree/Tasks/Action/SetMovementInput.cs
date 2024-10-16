@@ -9,7 +9,8 @@ public class SetMovementInput : Action
 
     public override TaskStatus OnUpdate()
     {
-        SelfInput.Value.MovementInput = Vector2.zero;
+        //SelfInput.Value.MovementInput = Vector2.zero;
+        SelfInput.Value.MovementInput = transform.position;
         return TaskStatus.Success;
     }
 }

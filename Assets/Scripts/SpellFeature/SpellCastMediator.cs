@@ -14,10 +14,7 @@ public class SpellCastMediator : MonoBehaviour
 
     private SpellStats _spellStats;
 
-    private void Start()
-    {
-        CreateSpellStats();
-    }
+    private void Start() => CreateSpellStats();
 
     private void OnEnable()
     {   
@@ -37,11 +34,20 @@ public class SpellCastMediator : MonoBehaviour
 
     public void CastModifier(SpellStat spellStat)
     {
-        if (_manaHandler.TrySpendMana(spellStat))
+        if (_manaHandler.TrygetMana(spellStat))
         {
+            _manaHandler.SpendMana();
             spellStat.IncreaseLevel();
             _spellView.Show(spellStat);
-        }           
+            TryNextModifier();
+        }
+    }
+
+    private void TryNextModifier()
+    {
+        foreach (IncreaseStatRequester requester in _increaseRequesters)
+            if (!_manaHandler.TrygetMana(requester.SpellStat))
+                requester.Lock();
     }
 
     private void CreateSpellStats()
@@ -55,6 +61,7 @@ public class SpellCastMediator : MonoBehaviour
     private void CastSpell()
     {
         _currentSpellBook.Cast(_spellStats);
+        _manaHandler.StartRegen();
 
         foreach (var spell in _spells)
             Destroy(spell);

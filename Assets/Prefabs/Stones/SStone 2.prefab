@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6155644586246293219}
   - component: {fileID: 4732354085695726414}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ Transform:
   m_Children:
   - {fileID: 296757249446686657}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &4954409635600850868
 SortingGroup:
@@ -139,7 +139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 296757249446686657}
   - component: {fileID: 1376737777017270459}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: PF Props Brick T2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

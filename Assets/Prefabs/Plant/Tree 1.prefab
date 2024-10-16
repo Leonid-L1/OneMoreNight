@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4474721509080398553}
   - component: {fileID: 1441229963254561376}
+  - component: {fileID: 9021676772059219426}
+  - component: {fileID: 6507674834111073076}
   m_Layer: 0
   m_Name: Tree 1
   m_TagString: Untagged
@@ -45,6 +47,57 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!114 &9021676772059219426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2407287771654498533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Size: {x: 0.79, y: 0.48, z: 1}
+  m_Center: {x: 0, y: 0.22, z: 0}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
+--- !u!58 &6507674834111073076
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2407287771654498533}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.25}
+  serializedVersion: 2
+  m_Radius: 0.28
 --- !u!1 &3627964929974557223
 GameObject:
   m_ObjectHideFlags: 0
@@ -55,7 +108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3125701889684248839}
   - component: {fileID: 2180555879695377908}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: PF Props Tree T1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +188,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8629380768024736774}
   - component: {fileID: 3270154563836258379}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Lower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -177,7 +230,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a9f84881abde25b48904c0ff67bca145, type: 2}
+  - {fileID: 2100000, guid: 6b605891853cdd940ac3d38ac26ca702, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -219,7 +272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8257635665869346296}
   - component: {fileID: 2879776834349487048}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -303,7 +356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1472157848766981954}
   - component: {fileID: 2197984270006174592}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Upper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345,7 +398,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a9f84881abde25b48904c0ff67bca145, type: 2}
+  - {fileID: 2100000, guid: 6b605891853cdd940ac3d38ac26ca702, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

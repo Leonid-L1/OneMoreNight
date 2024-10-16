@@ -1,5 +1,6 @@
 using BehaviorDesigner.Runtime;
 using BehaviorDesigner.Runtime.Tasks;
+using UnityEditor;
 using UnityEngine;
 
 public class Chase<TObject, TSharedObject> : Action where TObject : Component where TSharedObject : SharedVariable<TObject>
@@ -9,9 +10,12 @@ public class Chase<TObject, TSharedObject> : Action where TObject : Component wh
 
     public override TaskStatus OnUpdate()
     {
-        Vector2 direction = Target.Value.transform.position - transform.position;
-        SelfInput.Value.MovementInput = new Vector2(direction.x, direction.y);
+        //Vector2 direction = Target.Value.transform.position - transform.position;
+
+        //SelfInput.Value.MovementInput = direction;
+        SelfInput.Value.MovementInput = Target.Value.transform.position;
 
         return TaskStatus.Running;
     }
 }
+

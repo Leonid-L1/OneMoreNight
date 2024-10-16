@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1543001198342883343}
   - component: {fileID: 1689528748320496843}
+  - component: {fileID: 6199010767411897296}
+  - component: {fileID: 6419019217867854067}
   m_Layer: 0
   m_Name: LargeStone
   m_TagString: Untagged
@@ -31,7 +33,7 @@ Transform:
   m_Children:
   - {fileID: 7948902618740977550}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!210 &1689528748320496843
 SortingGroup:
@@ -45,6 +47,74 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!114 &6199010767411897296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911271394886150900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Size: {x: 1.8, y: 0.74, z: 1}
+  m_Center: {x: 0, y: 0.456, z: 0}
+  m_Area: 1
+  m_AffectedAgents: ffffffff
+--- !u!60 &6419019217867854067
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911271394886150900}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.9025634, y: 0.58651793}
+      - {x: 0.80455434, y: 0.8243961}
+      - {x: -0.859431, y: 0.8151413}
+      - {x: -0.95754284, y: 0.63981676}
+      - {x: -0.78561646, y: 0.1574372}
+      - {x: -0.34299475, y: -0.050123334}
+      - {x: 0.89916635, y: 0.37387982}
+  m_UseDelaunayMesh: 0
 --- !u!1 &2610669831593906012
 GameObject:
   m_ObjectHideFlags: 0
@@ -55,7 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7948902618740977550}
   - component: {fileID: 1384911004866819237}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: PF Props Stone T7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 226135667978543358}
   - component: {fileID: 1652359976663061060}
-  m_Layer: 20
+  m_Layer: 0
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
